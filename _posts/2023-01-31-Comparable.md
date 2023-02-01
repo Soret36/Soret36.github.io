@@ -1,9 +1,12 @@
-```
+---
 layout: single
-title:  "Comparable 과 Comparator"
+title:  "Comparable과 Comparator"
 categories: Coding
 tag: Java
-```
+toc: true
+---
+
+
 
 # Comparable과 Comparator
 
