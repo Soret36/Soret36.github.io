@@ -1,3 +1,11 @@
+```
+layout: single
+title:  "Comparable 과 Comparator"
+categories: Coding
+tag: Java
+class: wide
+```
+
 # Comparable과 Comparator
 
 - Comparable 과 Comparator는 모두 Interface이며, 인터페이스 내에 선언된 메소드를 '반드시 구현' 해야한다는 것이다.
