@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "fild2005@naver.com"
+      url: "mailto:fild2005@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://soret36.github.io/"
