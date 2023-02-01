@@ -29,7 +29,7 @@ logo                     : "/assets/images/Ghost.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 published                : true
 future                   : true
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -289,5 +289,5 @@ defaults:
       comments: # true
       share: true
       related: true
-
+      show_date: true
 push: 
