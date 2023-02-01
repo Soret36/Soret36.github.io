@@ -111,7 +111,6 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "화창한 날의 블로그"
   location         : "South Korea"
-  email            : "fild2005@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
