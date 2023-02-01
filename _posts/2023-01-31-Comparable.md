@@ -3,7 +3,6 @@ layout: single
 title:  "Comparable 과 Comparator"
 categories: Coding
 tag: Java
-class: wide
 ```
 
 # Comparable과 Comparator

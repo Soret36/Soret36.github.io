@@ -3,7 +3,6 @@ layout: single
 title:  "어노테이션"
 categories: Coding
 tag: Java
-class: wide
 ---
 
 # Anotation
