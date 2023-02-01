@@ -108,3 +108,16 @@ class Student {
 }
 ```
 
+
+
+## 정리
+
+- Comparable / Comparator 는 모두 객체를 비교하기 위한 기능 의 인터페이스
+
+- 두 인터페이스는 비교대상 이 다르다ㅌ
+  - Comparable :  호출한 자신 과 매개변수 객체 의 비교
+  - Comparator : 매개변수 객체 2개 간 비교
+
+- 정렬(`sort`)와 함께 사용 될 때
+  - Comparable : 오름차순 정렬 할 때 주로 사용
+  - Comparator : 내림차순이나 특별한 기준 에 따라 비교할 때 주로 사용
