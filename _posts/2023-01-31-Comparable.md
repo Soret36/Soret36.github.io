@@ -124,7 +124,7 @@ class Student {
 
 - Comparable / Comparator 는 모두 객체를 비교하기 위한 기능 의 인터페이스
 
-- 두 인터페이스는 비교대상 이 다르다ㅌ
+- 두 인터페이스는 비교대상 이 다르다
   - Comparable :  호출한 자신 과 매개변수 객체 의 비교
   - Comparator : 매개변수 객체 2개 간 비교
 
