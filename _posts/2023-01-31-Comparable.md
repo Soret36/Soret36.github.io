@@ -10,19 +10,35 @@ toc: true
 
 # Comparable과 Comparator
 
+
+
+Comparable과 Comparator의 공통점
+
 - Comparable 과 Comparator는 모두 Interface이며, 인터페이스 내에 선언된 메소드를 '반드시 구현' 해야한다는 것이다.
 - Comparable 인퍼페이스는 compareTo(T o) 메소드 , Comparator 인터페이스 compare(T o1, o2)로 나타낼수 있다.
 - 이 두기능의 공통적인 기능은 "객체를 비교한다"라는 것이다.
 
 
 
-여기서 역활이 비슷한데 어떠한 차이인지 궁금할수 있다. 이 두 인터페이스의  차이는 '매개변수' 이다.
+Comparable의 특징
 
-comparable의 compareTo는 자기 자신과 매개변수 객체를 비교하며, comparator의 compare는 두 매개변수 객체를 비교한다는것 이다 
+- 클래스가 상속받아서 compareTo 메소드를 구현함
+- 해당 객체 배열은 기본적으로 compareTo 구현방식대로 정렬됨.
+- 모든 값 클래스, 열거 타입은 Comparable이 구현되어져 있으므로 sort사용이 가능한것이다.
+- 정렬기준을 바꾸는게 어렵다.
+- Collections.reverseOrder() 사용이 가능하다.
 
-즉 비교한다는 것 자체는 같지만 , 비교 대상이 다르다는것을 알 수 있다.
 
 
+Comparator의 특징
+
+- sort마다 원하는 방식으로 자유롭게 정렬하기 좋다.
+
+- 구현체를 선언해두고 재사용도 할 수 있다.
+
+- sort에서 람다식으로 비교적 짧게 축약사용이 가능하다.
+
+  
 
 ## Comparable 예제 코드
 
@@ -43,10 +59,10 @@ class student implements Comparable<Student> {
 }
 ```
 
-[Comparable의 특징]
 
-1. 자기 자신과 매개변수를 비교한다
-2. compareTo 메소드를 반드시 구현해야한다.
+
+- 자기 자신과 매개변수를 비교한다
+- compareTo 메소드를 반드시 구현해야한다.
 
 
 
@@ -69,10 +85,10 @@ class student implements Comparator<Student> {
 }
 ```
 
-[Comparator의 특징]
 
-1. 두 매개변수를 비교한다
-2. compare 메소드를 반드시 구현해야한다.
+
+- 두 매개변수를 비교한다
+- compare 메소드를 반드시 구현해야한다.
 
 여기서 compareto를 비교할떄 두개의 변수가 필요한데 모든 객체를 따로 비교하기는 어렵다. 이럴때 익명 객체(클래스)를 이용한다.
 
