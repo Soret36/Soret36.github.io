@@ -18,6 +18,24 @@ toc: true
 
  즉 Serializable 인터페이스를 구현하면 JVM에서 해당 객체는 저장하거나 다른 서버로 전송 할 수 있도록 해준다.
 
+```java
+public calss Member implements Serializable{
+  private String name;
+  private String email;
+  private int age;
+
+  public Member(String name, String email, int age){
+    this.name = name;
+    this.email = email;
+    this.age = age = age;
+  }
+  @Override
+  public String toString(){
+    return String.format("Member{name='%s', email='%s', age='%s'}", name,email)
+  }
+}
+```
+
 
 
 ## 직렬화(Serialize)
