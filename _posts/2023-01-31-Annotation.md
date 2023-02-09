@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "어노테이션"
+title: "어노테이션"
 categories: Coding
 tag: Java
 toc: true

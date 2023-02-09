@@ -117,10 +117,13 @@ toc: true
 ### 리스코프 치환 원칙(LSP)
 
 - 서브타입은 그것의 기반 타입에 대해 대체 가능해야 함을 의미
+
 - 즉 자식 클래스가 부모 클래스와 행동 호환성을 유지함으로써 부모 클래스를 대체할 수 있도록 구현된 상속 관계만을 서브타이핑이라고 부른다.
 
-참고  
+  
 
-[](https://hwannny.tistory.com/63 )
+참고  자료
 
-[](https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics)
+[https://hwannny.tistory.com/63 ](https://hwannny.tistory.com/63 )
+
+[https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics](https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics)
