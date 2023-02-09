@@ -120,6 +120,6 @@ toc: true
 
 참고  자료
 
-https://hwannny.tistory.com/63 
+[https://hwannny.tistory.com/63](https://hwannny.tistory.com/63 ) 
 
-https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics
+[https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics](https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics)
