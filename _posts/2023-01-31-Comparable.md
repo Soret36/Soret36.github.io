@@ -10,8 +10,6 @@ toc: true
 
 # Comparable과 Comparator
 
-
-
 Comparable과 Comparator의 공통점
 
 - Comparable 과 Comparator는 모두 Interface이며, 인터페이스 내에 선언된 메소드를 '반드시 구현' 해야한다는 것이다.
