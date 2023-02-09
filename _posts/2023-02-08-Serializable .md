@@ -66,7 +66,6 @@ public calss Member implements Serializable{
 ## transient
 
 - transient는 Serialize하는 과정에 제외하고 싶은 경우 선언하는 키워드입니다.
-
 - 패스워드와 같은 보안정보가 직렬화(Serialize) 과정에서 제외하고 싶은 경우에 적용합니다.
 - 다양한 이유로 데이터를 전송을 하고 싶지 않을 때 선언할 수 있습니다.
 
