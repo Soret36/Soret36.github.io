@@ -72,6 +72,6 @@ public calss Member implements Serializable{
 
 
 
-참고 
 
-- https://techblog.woowahan.com/2550/
+
+- 참고 주소 [테디 블로그](https://techblog.woowahan.com/2550/)
