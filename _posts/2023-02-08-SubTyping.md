@@ -28,7 +28,7 @@ toc: true
 
 ------
 
-1. **is - a 관계**
+- **is - a 관계**
 
  어떤 타입 S가 다른 타입 T의 일종이라면 당연히 "타입 S는 타입 T다( S is-a T )" 라고 말할 수 있어야 한다.
 
@@ -46,11 +46,7 @@ toc: true
 
 
 
-------
-
-2.**행동 호환성**
-
- 
+- **행동 호환성**
 
 **타입의 이름 사이에 개념적으로 어떤 연광선이 있다고 하더라도 행동에 연관성이 없다면 is - a 관계를 사용하지 말아야 한다.**
 
@@ -124,6 +120,6 @@ toc: true
 
 참고  자료
 
-[https://hwannny.tistory.com/63 ](https://hwannny.tistory.com/63 )
+https://hwannny.tistory.com/63 
 
-[https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics](https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics)
+https://velog.io/@yhlee9753/Java-%EC%9D%98-Generics

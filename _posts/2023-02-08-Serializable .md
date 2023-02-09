@@ -75,4 +75,4 @@ public calss Member implements Serializable{
 
 참고 자료
 
- [https://techblog.woowahan.com/2550/)](https://techblog.woowahan.com/2550/)
+ https://techblog.woowahan.com/2550/
