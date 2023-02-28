@@ -4,6 +4,7 @@ title: "맥북 단축키"
 categories: Computer
 tag: Mac
 toc: true
+toc_sticky: true
 ---
 
 

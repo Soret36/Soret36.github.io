@@ -4,7 +4,10 @@ title: "인터페이스 VS 추상클래스"
 categories: Coding
 tag: Java
 toc: true
+toc_sticky: true
 ---
+
+
 
 # 추상클래스 (is kind of)
 

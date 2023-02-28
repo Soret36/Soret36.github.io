@@ -4,7 +4,10 @@ title: "직렬화(Serializable)"
 categories: Coding
 tag: Java
 toc: true
+toc_sticky: true
 ---
+
+
 
 # Serializable 
 
