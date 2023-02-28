@@ -1,7 +1,7 @@
 ---
 flayout: single
 title: "맥북 단축키"
-categories: OS
+categories: Computer
 tag: Mac
 toc: true
 ---
